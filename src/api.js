@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Configurar el cliente Axios
 const api = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "https://proyecto-nosti-back.onrender.com/",
   withCredentials: true,
 });
 
